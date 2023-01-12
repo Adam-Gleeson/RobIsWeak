@@ -1,0 +1,31 @@
+
+h1{
+    text-align: center;
+}
+
+@media(min-width:320px)
+{
+    .column{
+        column-count: 1;
+        
+    }
+    
+}
+@media(min-width:576px)
+{
+    .column{
+        column-count: 2;
+    }
+}
+@media(min-width:768px)
+{
+    .column{
+        column-count: 3;
+    }
+}
+@media(min-width:968px)
+{
+    .column{
+        column-count: 6;
+    }
+}

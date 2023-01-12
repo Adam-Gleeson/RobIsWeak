@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Q1 - WDD Template January 2023</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="customCss/Q1.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="#">WD&D January 2023</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" href="index.html">Home</a>
+              <a class="nav-link active" aria-current="page" href="question1.html">Question 1</a>
+              <a class="nav-link"  href="question2.html">Question 2</a>
+              <a class="nav-link"  href="question3.html">Question 3</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <!--Regex Answer-->
+      <!--^[1Ss]+[0-9]{8}-->
+      <div class="container">
+        <h1>Q1</h1>
+      </div>
+      <main>
+      <form method="get" action="question1.html">
+      <!--Name-->
+      <h2 >Enter Name here</h2>
+      <div><label>First Name</label>
+        <input type="text" placeholder="Frank Castle" maxlength="50" required>
+      </div>
+
+      <!--College Based-->
+      <br>
+      <h2>Enter Student Number here</h2>
+      <div><label>Student ID</label>
+        <input type="text" placeholder="s0000001" required>
+      </div>
+      <!--Radio Button-->
+      <br>  
+      <h2>What is current year of study</h2>
+      <p>Tick only one</p>
+      <div><label>Year 1</label>
+        <input type="radio" name="Year" required>
+      </div>
+      <div><label>Year 2</label>
+        <input type="radio" name="Year" required>
+      </div>
+      <div><label>Year 3</label>
+        <input type="radio" name="Year" required>
+      </div>
+      <div><label>Year 4</label>
+        <input type="radio" name="Year" required>
+      </div>
+      <div><label>Postgrad</label>
+        <input type="radio" name="Year" required>
+      </div>
+      <!--Check Box-->
+      <br>
+      <h2>What days might suit you.</h2>
+      <p>Check one or more</p>
+      <div>  
+        <label>Wednesday</label>
+        <input name="checkbox" type="checkbox">
+      </div>
+      <div>
+        <label>Thursday</label>
+        <input name="checkbox" type="checkbox">
+      </div>
+      <div>
+        <label>Friday</label>
+        <input name="checkbox" type="checkbox">
+      </div>
+      <br>
+      <button class="btn btn-primary" type="submit">Submit</button>
+    </form>
+  </main>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
+</html>
